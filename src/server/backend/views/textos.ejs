@@ -1,0 +1,22 @@
+
+
+
+<% if (locals && locals.lista) { %>
+    <ul>
+
+   
+    <% for (let i = 0; i< lista.length; i++) { %>
+        
+        <li>
+            <%= lista[i] %> 
+        </li>
+   <% } %>
+
+    </ul>
+<% } else { %> a
+
+    <h1>no se envió la lista</h1>
+<% } %>
+
+
+</a>
